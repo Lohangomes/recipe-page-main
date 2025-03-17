@@ -56,133 +56,133 @@ span {
   padding: 0 3rem;
 }
 
-.caixa-cartapio {
+.caixa-cardapio {
   background-color: hsl(0, 0%, 100%);
   width: 100%;
   max-width: 72rem;
   border-radius: 1.5rem;
 }
-.caixa-cartapio .fundo-img {
+.caixa-cardapio .fundo-img {
   padding: 3.5rem;
 }
-.caixa-cartapio .fundo-img img {
+.caixa-cardapio .fundo-img img {
   border-radius: 1.5rem;
 }
-.caixa-cartapio .conteudo-receita {
+.caixa-cardapio .conteudo-receita {
   padding: 3.5rem;
   display: flex;
   flex-flow: column;
   gap: 3rem;
 }
-.caixa-cartapio .info-receita-texto h1 {
+.caixa-cardapio .info-receita-texto h1 {
   font-size: 3.6rem;
   font-family: "Young Serif", serif;
   color: hsl(24, 5%, 18%);
   margin-bottom: 1.5rem;
   font-weight: 400;
 }
-.caixa-cartapio .info-receita-texto p {
+.caixa-cardapio .info-receita-texto p {
   color: hsl(30, 10%, 34%);
   line-height: 150%;
 }
-.caixa-cartapio .info-tempo-prepacacao {
+.caixa-cardapio .info-tempo-prepacacao {
   background-color: hsl(330, 100%, 98%);
   padding: 3rem;
   border-radius: 1rem;
 }
-.caixa-cartapio .info-tempo-prepacacao h2 {
+.caixa-cardapio .info-tempo-prepacacao h2 {
   color: hsl(332, 51%, 32%);
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   margin-bottom: 1.5rem;
   font-size: 1.8rem;
 }
-.caixa-cartapio .info-tempo-prepacacao ul {
+.caixa-cardapio .info-tempo-prepacacao ul {
   padding-left: 1rem;
   list-style-position: inside;
 }
-.caixa-cartapio .info-tempo-prepacacao ul li::marker {
+.caixa-cardapio .info-tempo-prepacacao ul li::marker {
   color: hsl(332, 51%, 32%);
 }
-.caixa-cartapio .info-tempo-prepacacao ul li:nth-child(2) {
+.caixa-cardapio .info-tempo-prepacacao ul li:nth-child(2) {
   padding-block: 1.5rem;
 }
-.caixa-cartapio .info-tempo-prepacacao ul span {
+.caixa-cardapio .info-tempo-prepacacao ul span {
   margin-left: 1rem;
 }
-.caixa-cartapio .info-ingredientes {
+.caixa-cardapio .info-ingredientes {
   border-bottom: 1px solid hsl(30, 18%, 87%);
   padding-bottom: 3rem;
 }
-.caixa-cartapio .info-ingredientes h2 {
+.caixa-cardapio .info-ingredientes h2 {
   font-family: "Young Serif", serif;
 }
-.caixa-cartapio .info-ingredientes ul {
+.caixa-cardapio .info-ingredientes ul {
   margin-left: 2.5rem;
 }
-.caixa-cartapio .info-ingredientes ul li {
+.caixa-cardapio .info-ingredientes ul li {
   padding-left: 2.5rem;
 }
-.caixa-cartapio .info-ingredientes ul li::marker {
+.caixa-cardapio .info-ingredientes ul li::marker {
   color: hsl(14, 45%, 36%);
 }
-.caixa-cartapio .info-ingredientes ul li:not(:last-child) {
+.caixa-cardapio .info-ingredientes ul li:not(:last-child) {
   padding-bottom: 1.5rem;
 }
-.caixa-cartapio .info-instrucao {
+.caixa-cardapio .info-instrucao {
   border-bottom: 1px solid hsl(30, 18%, 87%);
   padding-bottom: 3rem;
 }
-.caixa-cartapio .info-instrucao ul {
+.caixa-cardapio .info-instrucao ul {
   padding-left: 0.8rem;
   list-style-type: decimal;
   margin-left: 1.5rem;
 }
-.caixa-cartapio .info-instrucao ul li {
+.caixa-cardapio .info-instrucao ul li {
   padding-left: 2.5rem;
 }
-.caixa-cartapio .info-instrucao ul li::marker {
+.caixa-cardapio .info-instrucao ul li::marker {
   color: hsl(14, 45%, 36%);
   font-weight: 600;
 }
-.caixa-cartapio .info-instrucao ul li:not(:last-child) {
+.caixa-cardapio .info-instrucao ul li:not(:last-child) {
   padding-bottom: 1.5rem;
 }
-.caixa-cartapio .nutricao .tabela-nutricional {
+.caixa-cardapio .nutricao .tabela-nutricional {
   margin-top: 2rem;
   border-collapse: collapse;
   width: 100%;
   max-width: 100%;
 }
-.caixa-cartapio .nutricao .tabela-nutricional tr:not(:last-child) {
+.caixa-cardapio .nutricao .tabela-nutricional tr:not(:last-child) {
   border-bottom: 1px solid hsl(30, 18%, 87%);
 }
-.caixa-cartapio .nutricao .tabela-nutricional tr td {
+.caixa-cardapio .nutricao .tabela-nutricional tr td {
   padding: 1rem 0 1rem 2rem;
 }
-.caixa-cartapio .nutricao .tabela-nutricional tr td:nth-child(odd) {
+.caixa-cardapio .nutricao .tabela-nutricional tr td:nth-child(odd) {
   color: hsl(30, 10%, 34%);
 }
-.caixa-cartapio .nutricao .tabela-nutricional tr td:nth-child(even) {
+.caixa-cardapio .nutricao .tabela-nutricional tr td:nth-child(even) {
   color: hsl(14, 45%, 36%);
   font-weight: 700;
 }
 @media (max-width: 600px) {
-  .caixa-cartapio .fundo-img {
+  .caixa-cardapio .fundo-img {
     padding: 0;
   }
-  .caixa-cartapio .fundo-img img {
+  .caixa-cardapio .fundo-img img {
     border-radius: 0;
   }
 }
 @media (max-width: 420px) {
-  .caixa-cartapio .conteudo-receita {
+  .caixa-cardapio .conteudo-receita {
     padding: 1.8rem;
     display: flex;
     flex-flow: column;
     gap: 3rem;
   }
-  .caixa-cartapio .info-receita-texto h1 {
+  .caixa-cardapio .info-receita-texto h1 {
     font-size: 2.5rem;
   }
 }
